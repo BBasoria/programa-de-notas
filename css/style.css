@@ -1,0 +1,66 @@
+:root{
+--Lampara-de-luz-blanca-1-hex: #D9C5CA;
+--Lampara-de-luz-blanca-2-hex: #F2DFE4;
+--Lampara-de-luz-blanca-3-hex: #233461; 
+--Lampara-de-luz-blanca-4-hex: #1E4E59;
+--Lampara-de-luz-blanca-5-hex: #090847;
+}
+body{
+
+    background-color: rgb(6, 3, 22);
+}
+ body{
+    background:url(../imagenes/galaxi.jpg);
+    background-size: 100%;
+} 
+.fondo{
+    background:url(../imagenes/luna.jfif)no-repeat;
+ background-size: 100%;
+ background-position-y: -160px;
+}
+.fondo2{
+    background-color: rgb(4, 4, 43);
+}
+.log{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    border-color: rgba(255, 255, 255, 0.801);
+    border-style:groove;
+  }
+.far{
+    font-size: 2.4em;
+}
+.bal{
+    background-color: blue;
+  }
+.stilo{
+ background:url(../imagenes/tempsnip3.png)no-repeat;
+ background-size: 100%;
+ overflow-x: hidden;
+}
+.perfil-usuario{
+    margin-right: 20px;
+}
+.contenedor-boton{
+    display: inline-block;
+}
+.card-body{
+    background:var(--Lampara-de-luz-blanca-3-hex);
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:url(../imagenes/estrellas.jpg)no-repeat;
+    background-size: 105%;
+    border-color: #40484f;
+    overflow-x: hidden;
+}
+.ventana_emergente{
+    background: url(../imagenes/universo.jpg);
+    background-size: 100%;
+}
+.boton_VE{
+    background: url(../imagenes/luna.jfif);
+    background-size: 100%;
+}

@@ -1,0 +1,93 @@
+.login-clean{
+    background: url(../imagenes/luna_llena_entre_las_nubes.jpg)no-repeat;
+    background-size: 155%;
+    background-position-x: -180px;
+}
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.df_img-user{
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    object-fit: cover;
+}
+
+  /*Este es el contenedor padre de overlay df_label-img-user */
+.df_img-container{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    /* Usaremos posicion relativa para que se sus hijos con posicion absoluta se situen en relacion con su padre */
+    position: relative;
+    border-radius: 300px;
+}
+.df_img-user{
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    object-fit: cover;
+}
+
+  /*Este es el contenedor padre de overlay df_label-img-user */
+.df_img-container{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    /* Usaremos posicion relativa para que se sus hijos con posicion absoluta se situen en relacion con su padre */
+    position: relative;
+    border-radius: 300px;
+}
+
+.df_img-container:hover > .df_overlay{
+    opacity: .5;
+}
+
+.df_img-container:hover > .df_label-img-user{
+    opacity: 1;
+}
+.df_label-img-user{
+    position: absolute;
+    background: var(--persian-green);
+
+    /* Para que este en la mitad en y*/
+    top:50%;
+    /*Es la mitad del contenedor que tiene esta clase en y */
+    margin-top: -23px;
+    /* Para que este en la mitad en x*/
+    left: 50%;
+    /*Es la mitad del contenedor que tiene esta clase en x */
+    margin-left: -47.25px;
+
+
+    border-radius: 300px;
+    border: 3px solid var(--tifanny-blue);
+    /* Aca hacemos que tenga opacidad 0 y con el hover le subimos a 1 */
+    opacity: 0;
+    transition: opacity .5s ease;
+
+    cursor: pointer;
+}
+.error-signup{
+    color: #d40202;
+    margin: 7px 0;
+    font-weight: 500;
+}
+
+input.error-signup{
+    border: 1px solid #d40202;
+}
+
+.df_imagen > .error-signup{
+    text-align: center;
+}
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}

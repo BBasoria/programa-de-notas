@@ -1,0 +1,9 @@
+.foooter{
+    margin-top: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:url(../imagenes/estrellas.jpg)no-repeat;
+    background-size: 105%;
+    border-color: #40484f;
+    overflow-x: hidden;
+}
